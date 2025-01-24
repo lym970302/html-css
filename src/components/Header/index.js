@@ -57,10 +57,12 @@ export const Header = () => {
             <Link to="/Message">给我留言</Link>
           </li> */}
           {items.map((item) => (
-            <li className={pathname === item.path && "Link"}>
-              <Link id={item.id} key={item.id} to={item.path}>
-                {item.label}
-              </Link>
+            <li
+              id={item.id}
+              key={item.id}
+              className={pathname === item.path ? "Link" : ""}
+            >
+              <Link to={item.path}>{item.label}</Link>
             </li>
           ))}
         </ul>
