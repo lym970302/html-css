@@ -1,0 +1,32 @@
+label {
+  color: #5b5c60;
+}
+
+.input-text {
+  height: 30px;
+  width: 400px;
+}
+
+span {
+  color: red;
+  margin-left: 20px;
+}
+
+select {
+  height: 30px;
+  width: 400px;
+}
+
+textarea {
+  height: 150px;
+  width: 30%;
+  vertical-align: top;
+}
+
+.submit-form {
+  background-color: #000000;
+  color: #e1cd50;
+  width: 150px;
+  margin-left: 85px;
+  height: 40px;
+}

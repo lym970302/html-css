@@ -1,0 +1,40 @@
+h2 {
+  color: #5b5c60;
+  font-weight: 100;
+}
+
+button {
+  border: none;
+}
+
+hr {
+  border-style: dashed;
+  color: #5b5c60;
+}
+
+.places-interest {
+  display: flex;
+  list-style-type: none;
+}
+
+.places-interest li {
+  padding-right: 10%;
+}
+
+.page {
+  display: flex;
+  list-style-type: none;
+  margin-left: 40%;
+}
+
+.page li {
+  padding-left: 10px;
+}
+
+.paging button {
+  background-color: #dddddd;
+}
+
+.onClick {
+  background-color: #0099ff;
+}

@@ -1,0 +1,11 @@
+.table {
+  background-color: #e8fafe;
+  width: 100%;
+  height: 100%;
+}
+table {
+  border-collapse: collapse;
+  width: 95%;
+  height: 97%;
+  margin-left: 50px;
+}
