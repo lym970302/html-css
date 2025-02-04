@@ -1,11 +1,23 @@
 .table {
-  background-color: #e8fafe;
+  background-color: white;
   width: 100%;
   height: 100%;
 }
 table {
   border-collapse: collapse;
   width: 95%;
-  height: 97%;
+  height: 90%;
   margin-left: 50px;
+}
+
+table thead {
+  background-color: #e8fafe;
+}
+
+table tbody tr {
+  text-align: center;
+}
+
+table tbody tr td {
+  width: 50px;
 }

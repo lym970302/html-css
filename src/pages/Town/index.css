@@ -3,12 +3,17 @@ h2 {
   font-weight: 100;
 }
 
-button {
+.places-btn button {
   border: none;
 }
 
 hr {
   border-style: dashed;
+  color: #5b5c60;
+}
+
+.intro p {
+  line-height: 2em;
   color: #5b5c60;
 }
 
@@ -37,4 +42,8 @@ hr {
 
 .onClick {
   background-color: #0099ff;
+}
+
+.Search {
+  margin-left: 80%;
 }

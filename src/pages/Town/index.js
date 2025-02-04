@@ -62,11 +62,19 @@ export const Town = () => {
   ];
   return (
     <div>
-      <h2>● 城市介绍</h2>
+      <div className="Header">
+        <h2>● 城市介绍</h2>
+        <div className="Search">
+          <input type="text" />
+          <button>Search</button>
+        </div>
+      </div>
       <hr />
-      <p>
-        丹东市，古称安东，是辽宁省辖地级市，国务院批复确定的辽宁省重要的边境口岸和辽东地区中心城市，辽宁沿海经济带重要的港口城市。地处辽宁省东南部，东与朝鲜的新义州隔江相望，南临黄海，西接鞍山，西南与大连毗邻，北与本溪接壤，地势由东北向西南逐渐降低，属暖温带湿润季风气候区，总面积15289.6平方千米。全市下辖3个市辖区、1个自治县，代管2个县级市。截至2023年末，丹东市常住人口209.2万。
-      </p>
+      <div className="intro">
+        <p>
+          丹东市，古称安东，是辽宁省辖地级市，国务院批复确定的辽宁省重要的边境口岸和辽东地区中心城市，辽宁沿海经济带重要的港口城市。地处辽宁省东南部，东与朝鲜的新义州隔江相望，南临黄海，西接鞍山，西南与大连毗邻，北与本溪接壤，地势由东北向西南逐渐降低，属暖温带湿润季风气候区，总面积15289.6平方千米。全市下辖3个市辖区、1个自治县，代管2个县级市。截至2023年末，丹东市常住人口209.2万。
+        </p>
+      </div>
       <br />
       <h2>● 名胜古迹</h2>
       <hr />
@@ -82,15 +90,17 @@ export const Town = () => {
         ))}
       </ul>
       <br />
-      <ul className="page">
-        {pageItems.map((item) => (
-          <li id={item.id} className={item.id < 3 ? "paging" : ""}>
-            <button className={item.id === 3 ? "onClick" : ""}>
-              {item.label}
-            </button>
-          </li>
-        ))}
-      </ul>
+      <div className="places-btn">
+        <ul className="page">
+          {pageItems.map((item) => (
+            <li id={item.id} className={item.id < 3 ? "paging" : ""}>
+              <button className={item.id === 3 ? "onClick" : ""}>
+                {item.label}
+              </button>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
