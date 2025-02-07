@@ -25,147 +25,147 @@ export const Process = () => {
           <tbody>
             <tr>
               <td rowSpan="8">受理处</td>
+              <td className="acceptor"></td>
               <td></td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
-              <td>6</td>
-              <td>7</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               {/* <td>1</td> */}
+              <td className="acceptor"></td>
               <td></td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
-              <td>6</td>
-              <td>7</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               {/* <td>1</td> */}
+              <td className="acceptor"></td>
               <td></td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
-              <td>6</td>
-              <td>7</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               {/* <td>1</td> */}
+              <td className="acceptor"></td>
               <td></td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
-              <td>6</td>
-              <td>7</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               {/* <td>1</td> */}
+              <td className="acceptor"></td>
               <td></td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
-              <td>6</td>
-              <td>7</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               {/* <td>1</td> */}
+              <td className="acceptor"></td>
               <td></td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
-              <td>6</td>
-              <td>7</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               {/* <td>1</td> */}
+              <td className="acceptor"></td>
               <td></td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
-              <td>6</td>
-              <td>7</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               {/* <td>1</td> */}
-              <td>总计</td>
-              <td>20</td>
-              <td>20</td>
-              <td>20</td>
-              <td>20</td>
-              <td>20</td>
+              <td className="acceptor">总计</td>
+              <td className="acceptor">20</td>
+              <td className="acceptor">20</td>
+              <td className="acceptor">20</td>
+              <td className="acceptor">20</td>
+              <td className="acceptor">20</td>
             </tr>
             <tr>
               <td rowSpan="8">话务组</td>
-              <td>2</td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
-              <td>6</td>
-              <td>7</td>
+              <td className="acceptor"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               {/* <td>1</td> */}
-              <td>2</td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
-              <td>6</td>
-              <td>7</td>
+              <td className="acceptor"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               {/* <td>1</td> */}
-              <td>2</td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
-              <td>6</td>
-              <td>7</td>
+              <td className="acceptor"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               {/* <td>1</td> */}
-              <td>2</td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
-              <td>6</td>
-              <td>7</td>
+              <td className="acceptor"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               {/* <td>1</td> */}
-              <td>2</td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
-              <td>6</td>
-              <td>7</td>
+              <td className="acceptor"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               {/* <td>1</td> */}
-              <td>2</td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
-              <td>6</td>
-              <td>7</td>
+              <td className="acceptor"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               {/* <td>1</td> */}
-              <td>2</td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
-              <td>6</td>
-              <td>7</td>
+              <td className="acceptor"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               {/* <td>1</td> */}
-              <td>2</td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
-              <td>6</td>
-              <td>7</td>
+              <td className="acceptor">总计</td>
+              <td className="acceptor">20</td>
+              <td className="acceptor">20</td>
+              <td className="acceptor">20</td>
+              <td className="acceptor">20</td>
+              <td className="acceptor">20</td>
             </tr>
           </tbody>
         </table>

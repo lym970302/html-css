@@ -44,10 +44,14 @@ hr {
   background-color: #0099ff;
 }
 
+.Header {
+  position: relative;
+}
+
 .search {
   position: absolute;
   right: 10%;
-  top: 777px;
+  top: 0;
 }
 
 .search input {
