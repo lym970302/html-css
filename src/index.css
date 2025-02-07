@@ -22,3 +22,8 @@ a:visited {
   color: #ffff;
   text-decoration: none;
 }
+
+input,
+select {
+  outline: none;
+}

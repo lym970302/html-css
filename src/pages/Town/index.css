@@ -44,6 +44,32 @@ hr {
   background-color: #0099ff;
 }
 
-.Search {
-  margin-left: 80%;
+.search {
+  position: absolute;
+  right: 10%;
+  top: 777px;
+}
+
+.search input {
+  border-radius: 10px 8px 8px 10px;
+  box-shadow: 8px 9px 2px #5c5b5b;
+  border-style: solid;
+  border-color: #e6650a;
+  width: 250px;
+  height: 30px;
+}
+
+.search button {
+  background-color: #e6650a;
+  background-image: url("../../assets/search.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25px;
+  position: absolute;
+  border-color: #e6650a;
+  right: 0;
+  width: 40px;
+  height: 36px;
+  border-style: none;
+  border-radius: 0px 8px 8px 0px;
 }

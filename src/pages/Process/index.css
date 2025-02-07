@@ -10,7 +10,8 @@ table {
   margin-left: 50px;
 }
 
-table thead {
+table thead th {
+  font-weight: 300;
   background-color: #e8fafe;
 }
 
