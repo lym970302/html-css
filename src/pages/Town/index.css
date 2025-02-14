@@ -77,3 +77,10 @@ hr {
   border-style: none;
   border-radius: 0px 8px 8px 0px;
 }
+
+.logout-btn {
+  position: absolute;
+  color: #dddddd;
+  right: 1%;
+  top: 0;
+}

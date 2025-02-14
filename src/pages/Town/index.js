@@ -3,7 +3,11 @@ import pic1 from "../../assets/02.jpg";
 import pic2 from "../../assets/03.jpg";
 import pic3 from "../../assets/04.jpg";
 import pic4 from "../../assets/05.jpg";
+import { Button } from "antd";
+import { removeToken, getToken } from "../../utils/token";
+import { useNavigate } from "react-router-dom";
 export const Town = () => {
+  const navigate = useNavigate();
   const items = [
     {
       id: 1,
@@ -60,6 +64,10 @@ export const Town = () => {
       label: "尾页",
     },
   ];
+  const handleLogout = () => {
+    removeToken(getToken());
+    navigate("/login");
+  };
   return (
     <div>
       <div className="Header">
@@ -67,6 +75,11 @@ export const Town = () => {
         <div className="search">
           <input type="text" />
           <button></button>
+        </div>
+        <div className="logout-btn">
+          <Button type="primary" onClick={handleLogout}>
+            退出登录
+          </Button>
         </div>
       </div>
       <hr />
